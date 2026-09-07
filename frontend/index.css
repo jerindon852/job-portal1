@@ -1,0 +1,54 @@
+.application-card {
+  background: white;
+  padding: 32px;
+  border-radius: 18px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+}
+
+.application-card h2 {
+  margin-bottom: 8px;
+  font-size: 26px;
+}
+
+.application-card > p {
+  color: #6b7280;
+  margin-bottom: 25px;
+}
+
+.application-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.application-card input {
+  padding: 14px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+}
+
+.application-card input:focus {
+  border-color: #6366f1;
+}
+
+.application-card form button {
+  padding: 13px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.application-card form button[type="submit"] {
+  background: #6366f1;
+  color: white;
+}
+
+.application-card form button[type="button"] {
+  background: #f3f4f6;
+  color: #374151;
+}
