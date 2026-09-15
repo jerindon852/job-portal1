@@ -34,7 +34,7 @@ const upload = multer({ storage });
 
 const pool = new Pool({
     user: "postgres",
-    host: "localhost",
+    host:  "172.26.80.1",
     database: "job_portal",
     password: "jerin20",
     port: 5432
@@ -66,6 +66,8 @@ app.get("/api/jobs", async (req, res) => {
 
         res.status(500).json({
             message: "Database error"
+
+
         });
     }
 });
