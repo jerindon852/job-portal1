@@ -34,7 +34,7 @@ const upload = multer({ storage });
 
 const pool = new Pool({
     user: "postgres",
-    host: "172.17.0.1",
+    host: "172.26.92.217",
     database: "job_portal",
     password: "jerin20",
     port: 5432
